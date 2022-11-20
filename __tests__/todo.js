@@ -1,4 +1,4 @@
-let todoList = require("../index");
+let todoList = require("../todo");
 
 const { all, markAsComplete, add, overdue, dueToday, dueLater } = todoList();
 describe("Todo List Test Suite", () => {
